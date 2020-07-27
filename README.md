@@ -1,6 +1,6 @@
 # This is a sample node js RestAPI project with mongoDB at the back-end.
 
-Use cmd 'install npm' after clone.
+Use cmd 'npm install' after clone.
 
 Create a database 'bookDB' in mongoDB, collection name 'books'.
 
