@@ -1,31 +1,31 @@
 # This is a sample node js RestAPI project with mongoDB at the back-end.
 
-# use cmd 'install npm' after clone.
+use cmd 'install npm' after clone.
 
-# Create a database 'bookDB' in mongoDB, collection name 'books'.
+Create a database 'bookDB' in mongoDB, collection name 'books'.
 
-# Refer the schema in app.js for more DB config.
+Refer the schema in app.js for more DB config.
 
-# run 'node app.js' // server will listen to the port 3000
+run 'node app.js' // server will listen to the port 3000
 
-# End Points for the api are:
-// To fetch all books
+End Points for the api are:
+- To fetch all books
 GET: localhost:3000/books
 
-// To store a new book  --note: data should be a body passer
+- To store a new book  --note: data should be a body passer
 POST: localhost:3000/books
 
-// To delete all the existing data
+- To delete all the existing data
 DELETE: localhost:3000/books
 
-// To get a single book from the collection
+- To get a single book from the collection
 GET: localhost:3000/books/bookname
 
-// To update a single record  --note: data should be a body passer
+- To update a single record  --note: data should be a body passer
 PUT: localhost:3000/books/bookname
 
-// To update a single record with patch method --note: data should be a body passer
+- To update a single record with patch method --note: data should be a body passer
 PATCH: localhost:3000/books/bookname
 
-// To delete a single record using book name
+- To delete a single record using book name
 DELETE: localhost:3000/books/bookname
